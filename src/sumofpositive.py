@@ -11,5 +11,8 @@ def positive_sum(arr):
 	return result
 
 
-print(positive_sum([1, 2, 3, 4, 5])) # 15
+print(positive_sum([-1, 2, 3, 4, -5])) # 9
+print(positive_sum([])) # 0
+print(positive_sum([0])) # 0
+print(positive_sum([1, -2, 3, 4, 5])) # 13
 

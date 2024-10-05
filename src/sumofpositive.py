@@ -2,7 +2,13 @@
 
 
 def positive_sum(arr):
-    return sum(filter(lambda i: i > 0, arr))
+	result = 0	
+	for i in arr:
+		if i >= 0:
+			result += i
+		else:
+			result += 0
+	return result
 
 
 print(positive_sum([1, 2, 3, 4, 5])) # 15
